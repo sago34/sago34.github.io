@@ -72,10 +72,7 @@ body {
 }
 
 .ab {
-    height: fit-content;
-    width: fit-content;
-    transition: all 1s ease-in-out;
-    content: 100%;
+    transition: all 2s ease-in-out;
     box-shadow: 10px 10px 20px black;
     border: 7px solid white;
     background-color: rgb(216, 214, 187);
@@ -177,4 +174,22 @@ body {
     bottom: 10px;
     right: 10px;
     opacity: 0.2;
+}
+
+.logoor {}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+}
+
+.cc {
+    text-align: center;
+    font-size: 2rem;
+    opacity: 0.8;
+    background-color: #a39e73
 }
